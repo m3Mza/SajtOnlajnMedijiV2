@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="tosumojadokumenta.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+	
+
+    <title>Cyberpunk - Pocetna</title>
+</head>
+<body>
+
+
+
+	<!--navigacioni meni-->
+    <ul>
+        <li><a href="dobrodosli.html">Grad</a></li>
+        <li><a href="uloge.html">Samo za GM-a</a></li>
+      </ul>
+
+<!--pocetna hover-->
+    
+      <div class="container">
+        <img src="welcome.png" class="image" style="width: 100%; height: 100%;">
+        <div class="middle">
+          <div class="text" align="center">Dobrodošli u Night City! Grad preživelih, ne heroja. Haotična tinktura visoke tehnologije i niskog života će naterati vaše igrače na razmišljanje</div>
+        </div>
+
+	<!-- button sa mapom -->
+
+</div>
+<div class="container">
+<div align="center"><button id="show-image-button"><img src="samurai.jpeg"></button></div> 
+<div align="center"><img id="my-image" src="NightCity2045Map.png" class="mapa" hidden></div>
+</div>
+
+<p align="center">Grad je 2023 godine doziveo najveci teroristicki napad u istoriji drzave, nekolicina rokera i nomada sponzorisano od strane Militeka je aktiviralo nuklearnu bombu u sedistu kompanije Arasaka</p>
+
+<br><br>
+
+<!-- slideshow sa klasama -->
+
+	  <div class="slideshow-container">
+		<div class="slide">
+		  <img src="Solo.png" id="slika1">
+		  <div class="description">
+			<p>Solo kao trenirani ubica može ignorisati critical failure tokom borbe, takođe može naneti više štete protivnicima</p>
+		  </div>
+		</div>
+		<div class="slide">
+		  <img src="netrun.png" id="slika2">
+		  <div class="description">
+			<p>Netraneri za računarom imaju mnogo više akcija nego drugi igrači, oni mogu naneti veliku štetu ako znaju šta rade</p>
+		  </div>
+		</div>
+		<div class="slide">
+		  <img src="roker.png" id="slika3">
+		  <div class="description">
+			<p>Rokeri mogu iskoristiti svoju harizmu i status da nateraju fanove da rade stvari za njih</p>
+		  </div>
+		</div>
+		<div class="slide">
+		  <img src="nomad.png" id="slika4">
+		  <div class="description">
+			<p>Nomadi pored njihovih nabudženih vozila mogu se osloniti i na svoju familiju da im pomogne u škripcu</p>
+		  </div>
+		</div>
+		<div class="slide">
+		  <img src="fixer.png" id="slika5">
+		  <div class="description">
+			<p>Fikseri su tu da nađu poslove, opremu, sve što treba ekipi kako bi obavili zadatak</p>
+		  </div>
+		</div>
+	  </div>
+
+
+	  <br><br><br><br>
+
+
+<!-- Menjajuca panorama grada -->
+<div align="center">
+	<img id="cyberpunkeasy" src="easy.jpeg" class="difficultyPic">
+</div>
+
+<p align="center">U gradu gde postoji kafic zvan "Afterlife" nasilje je na svakom uglu, opreznost je obavezna</p>
+
+	  
+<!-- kontakt forma -->
+
+	  <form id="contact-form">
+		<label for="name"><img src="IME-removebg-preview.png" width="300px" height="90px"></label>
+		<input type="text" id="name" name="name" class="inputKon" required>
+		<label for="email"><img src="MAIL-removebg-preview.png" width="300px" height="50px"></label>
+		<input type="email" id="email" name="email" class="inputKon" required>
+		<label for="message"><img src="PORUKA-removebg-preview.png" width="300px" height="100px"></label>
+		<textarea id="message" name="message" class="inputKon" required></textarea>
+		<button type="submit" class="kontaktDugme"><img src="cyberpunkRED.png" height="30%" width="30%"></button>
+	  </form>
+	 
+
+<script src="javascript.js"></script>
+</body>
+</html>
